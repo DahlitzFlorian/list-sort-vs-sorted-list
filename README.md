@@ -12,6 +12,7 @@ You can get more information about the different sections by reading the README.
 The article inspects the following aspects:
 
 - [memory usage](memory_measurement/README.md)
+- [speed](speed/README.md)
 
 
 [article]: #
