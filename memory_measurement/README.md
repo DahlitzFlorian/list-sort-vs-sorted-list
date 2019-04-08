@@ -30,7 +30,7 @@ $ python main.py sort
 Calling the Target Function...
 Function Call Complete
 
-MAX Memory Usage: 32.219 MB
+MAX Memory Usage: 23.371 MB
 ```
 
 ```shell
@@ -38,7 +38,7 @@ $ python main.py sorted
 Calling the Target Function...
 Function Call Complete
 
-MAX Memory Usage: 66.422 MB
+MAX Memory Usage: 30.879 MB
 ```
 
 

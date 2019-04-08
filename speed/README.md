@@ -18,15 +18,15 @@ $ python main.py
 
 This will display you the execution time of both wrapper functions.
 
-**Note:** The `sorted_builtin` function is called first as the `list_sort` function modifies the NumPy array just in-place. If changing the order, the `sorted_builtin` function don't need to sort anything.
+**Note:** The `sorted_builtin` function is called first as the `list_sort` function modifies the list just in-place. If changing the order, the `sorted_builtin` function don't need to sort anything.
 
 
 # Example Output
 
 ```shell
 $ python main.py
-"sorted(list)" spend time: 0.3372979
-"list.sort()" spend time: 0.02888489
+"sorted(list)" spend time: 0.1104379
+"list.sort()" spend time: 0.0956471
 ```
 
 

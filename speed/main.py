@@ -1,4 +1,4 @@
-import numpy as np
+import random
 
 from boxx import timeit
 
@@ -12,7 +12,7 @@ def sorted_builtin(arr):
 
 
 def main():
-    arr = np.random.randint(50, size=1_000_000)
+    arr = [random.randint(0, 50) for r in range(1_000_000)]
 
     with timeit(name="sorted(list)"):
         sorted_builtin(arr)

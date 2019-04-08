@@ -1,8 +1,7 @@
+import random
 import resource
 import sys
 import time
-
-import numpy as np
 
 from sniffing import FunctionSniffingClass
 
@@ -26,7 +25,7 @@ if __name__ == "__main__":
         sys.exit("Please run: python (sort|sorted)")
 
     # Lib Testing Code
-    arr = np.random.randint(50, size=1_000_000)
+    arr = [random.randint(0, 50) for r in range(1_000_000)]
     mythread = FunctionSniffingClass(func, arr)
     mythread.start()
 
