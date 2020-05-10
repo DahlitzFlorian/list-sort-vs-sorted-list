@@ -3,11 +3,11 @@
 
 ## Description
 
-This repository contains code used in the *list.sort() vs. sorted(list)* [article][article] published on Medium.
+This repository contains code used in the *Python: list.sort() vs. sorted(list)* [article][article] published on my personal blog.
 You can get more information about the different sections by reading the README.md files in the subdirectories.
 
 
-## Used Tools
+## Used tools
 
 The article inspects the following aspects:
 
@@ -15,4 +15,4 @@ The article inspects the following aspects:
 - [speed](speed/README.md)
 
 
-[article]: #
+[article]: https://florian-dahlitz.de/blog/list-sort-vs-sorted-list

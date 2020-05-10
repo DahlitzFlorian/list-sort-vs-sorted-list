@@ -3,7 +3,7 @@
 
 ## Description
 
-The memory usage is measured by using the builtin [resource][resource] module.
+The memory usage is measured by using the built-in [resource][resource] module.
 Therefore, a `FunctionSniffingClass` was implemented to run a single function in a separate thread to be able to measure the memory of the whole thread.
 
 **Note:** This approach may cause unrecognized overhead.
